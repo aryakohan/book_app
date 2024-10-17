@@ -1,0 +1,277 @@
+@charset "utf-8";
+.masterdiv {
+  width: auto;
+  height: 100px;
+}
+.logo img {
+  width: 150px;
+  float: right;
+  margin-right: 20px;
+  position: relative;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #024463;
+  margin: 0;
+  padding: 0;
+}
+
+.container1 {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #cfe3e4;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #02628f 3px solid;
+}
+
+header .title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+header .title a {
+  margin-top: 100px;
+  color: #0591b3;
+  text-decoration: none;
+}
+
+header .container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container1 div {
+  flex: 1;
+}
+.section-content {
+  color: #cfe3e4;
+  float: left;
+  width: 340px;
+}
+.section-device {
+  position: relative;
+  bottom: 450px;
+  left: 900px;
+}
+
+.section-device img {
+  float: right;
+  width: 1500px;
+  margin-left: 20px;
+}
+
+.container {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+}
+.btn-primary {
+  background: #0591b3;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.23px;
+  padding: 50px 50px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: border-radius 800ms;
+  margin: 10px;
+  transition: 800ms;
+  clip-path: polygon(
+    0% 15%,
+    15% 15%,
+    15% 0%,
+    85% 0%,
+    85% 15%,
+    100% 15%,
+    100% 85%,
+    85% 85%,
+    85% 100%,
+    15% 100%,
+    15% 85%,
+    0% 85%
+  );
+}
+.btn-primary:hover {
+  border-radius: 50%;
+}
+
+.btn-secondary {
+  background: #ffffff;
+  color: #024463;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.23px;
+  padding: 50px 50px;
+  text-align: center;
+  text-decoration: none;
+  transition: border-radius 800ms;
+  text-transform: uppercase;
+  clip-path: polygon(
+    0% 15%,
+    15% 15%,
+    15% 0%,
+    85% 0%,
+    85% 15%,
+    100% 15%,
+    100% 85%,
+    85% 85%,
+    85% 100%,
+    15% 100%,
+    15% 85%,
+    0% 85%
+  );
+}
+.btn-secondary:hover {
+  border-radius: 50%;
+}
+.hero-section .section-content1 {
+  position: relative;
+  right: 500px;
+  top: 200px;
+}
+
+.hero-section .section-content1 h2 {
+  font-size: 40px;
+  color: #cfe3e4;
+  padding: 20px;
+  width: 800px;
+  background-color: #0591b3;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.hero-section .section-content1 .btn-primary,
+.btn-secondary {
+  margin: 20px 0;
+  justify-content: center;
+}
+.about-section {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding-bottom: 20px;
+  background-color: #cfe3e4;
+}
+
+.about-section.container {
+  background-color: #02628f;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+  margin-top: 200px;
+  font-size: 36px;
+  color: #333333;
+  text-align: left;
+}
+.about-section h3 {
+  margin-top: 150px;
+  font-size: 30px;
+  color: #ee1414;
+  text-align: left;
+}
+.about-section p {
+  font-size: 25px;
+  color: #666666;
+  text-align: left;
+  line-height: 1.6;
+  margin: 70px;
+}
+.th1 {
+  color: #cfe3e4;
+  background-color: #0591b3;
+}
+.form-group {
+  margin-bottom: 20px;
+  caret-color: #cfe3e4;
+}
+
+.form-group label {
+  color: #024463;
+  background-color: #0591b3;
+  width: 60px;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  border: none;
+  border-bottom: 2px solid #02628f;
+  background-color: transparent;
+  color: #cfe3e4;
+  font-size: 18px;
+  padding: 5px 0;
+  width: 100%;
+}
+.form-group input::placeholder {
+  color: #cfe3e4;
+}
+
+.form-group input:focus {
+  outline: 0;
+}
+/* styles.css */
+.update {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container3 {
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.update h1 {
+  text-align: center;
+  color: #333;
+}
+
+.update form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update label {
+  margin: 10px 0 5px;
+}
+
+.update input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.update button {
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update button:hover {
+  background: #555;
+}

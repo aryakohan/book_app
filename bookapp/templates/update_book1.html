@@ -1,0 +1,14 @@
+{% extends "layout.html" %} {% block content %}
+<main class="update">
+  <div class="container3">
+    <h1>Update Book</h1>
+    <form method="post">
+      <label for="price">New PRICE:</label>
+      <input type="text" id="price" name="price" required />
+      <label for="isbn">Isbn:</label>
+      <input type="text" id="isbn" name="isbn" required />
+      <button type="submit">Update</button>
+    </form>
+  </div>
+</main>
+{% endblock %}

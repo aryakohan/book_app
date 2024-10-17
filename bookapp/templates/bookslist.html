@@ -1,0 +1,38 @@
+{% extends 'layout.html' %} {% block content %}
+<style>
+  table,
+  th,
+  td {
+    color: white;
+    width: 2000px;
+    height: 150px;
+    border: 5px solid rgb(5, 107, 133);
+    margin: 50px;
+    text-align: center;
+  }
+</style>
+
+<table style="width: 60%">
+  <tr class="th1">
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Author</th>
+    <th>Year</th>
+    <th>Price</th>
+    <th>Pages</th>
+    <td>Genre</td>
+  </tr>
+  {%for book in allbooks %}
+  <tr>
+    <td>{{book[0]}}</td>
+    <td>{{book[1]}}</td>
+    <td>{{book[2]}}</td>
+    <td>{{book[3]}}</td>
+    <td>{{book[4]}}</td>
+    <td>{{book[5]}}</td>
+    <td>{{book[6]}}</td>
+  </tr>
+  {% endfor %}
+</table>
+<a href="/delete_book" class="btn-primary" style="margin: 50px">Delete Car</a>
+{% endblock %}
